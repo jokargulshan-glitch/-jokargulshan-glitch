@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroX GT | Apex Motors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="logo">APEX MOTORS</div>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="#specs">Specifications</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+        <button class="cta-nav">Build yours</button>
+    </header>
+
+    <main>
+        <!-- Hero Product Section -->
+        <section class="product-hero">
+            <div class="hero-container">
+                <div class="car-image-container">
+                    <!-- Replace with your actual car image asset -->
+                    <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1200&q=80" alt="Apex AeroX GT Exotic Sports Car" class="main-car-image">
+                </div>
+                
+                <div class="product-details">
+                    <span class="badge">All-New 2026 Model</span>
+                    <h1>AeroX GT</h1>
+                    <p class="tagline">The intersection of raw electric power and refined luxury.</p>
+                    
+                    <div class="price-tag">
+                        <span class="label">Starting at</span>
+                        <span class="price">$89,500</span>
+                    </div>
+
+                    <!-- Key Highlights Quick Grid -->
+                    <div class="quick-highlights">
+                        <div class="highlight-item">
+                            <span class="value">2.4s</span>
+                            <span class="caption">0-60 mph</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="value">420 mi</span>
+                            <span class="caption">Est. Range</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="value">1,020 hp</span>
+                            <span class="caption">Peak Power</span>
+                        </div>
+                    </div>
+
+                    <!-- Configuration Actions -->
+                    <div class="action-buttons">
+                        <button class="btn btn-primary">Order Now</button>
+                        <button class="btn btn-secondary">Schedule Test Drive</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Specifications Table/Grid Section -->
+        <section id="specs" class="specs-section">
+            <h2>Technical Specifications</h2>
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <h3>Powertrain</h3>
+                    <ul>
+                        <li><strong>Engine Type:</strong> Tri-Motor AWD Electric</li>
+                        <li><strong>Battery Capacity:</strong> 100 kWh Lithium-ion</li>
+                        <li><strong>Transmission:</strong> Single-speed direct drive</li>
+                    </ul>
+                </div>
+                <div class="spec-card">
+                    <h3>Chassis & Dimensions</h3>
+                    <ul>
+                        <li><strong>Curb Weight:</strong> 4,600 lbs</li>
+                        <li><strong>Wheels:</strong> 21" Aero Sport Alloys</li>
+                        <li><strong>Brakes:</strong> Carbon Ceramic Brembo</li>
+                    </ul>
+                </div>
+                <div class="spec-card">
+                    <h3>Charging</h3>
+                    <ul>
+                        <li><strong>DC Fast Charging:</strong> 10% to 80% in 18 mins</li>
+                        <li><strong>Home Charging:</strong> 11.5 kW onboard charger</li>
+                        <li><strong>Plug Type:</strong> NACS / CCS Compatible</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Apex Motors Inc. All premium features shown are subject to regional availability.</p>
+    </footer>
+
+</body>
+</html>
